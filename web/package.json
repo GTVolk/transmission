@@ -18,7 +18,7 @@
     "lint:stylelint:fix": "stylelint --fix style/*scss"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
+    "@babel/core": "^7.17.8",
     "@babel/eslint-parser": "^7.14.9",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "css-loader": "^5.2.7",
