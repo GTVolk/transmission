@@ -1,6 +1,6 @@
 FROM mikedld/clang-format:12-debian AS clang_format
 
-FROM debian:bullseye-slim AS final
+FROM debian:11.3-slim AS final
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
